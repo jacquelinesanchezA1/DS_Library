@@ -9,7 +9,7 @@ double cardBalance;
 public: 
 
 // card constructor
-card(string number, string name, double balance){
+Card(string name, string number, double balance){
   cardNumber = number; 
   cardName = name; 
   cardBalance = balance; 
@@ -25,7 +25,7 @@ void setBalance(double balance){ cardBalance = balance; }
 int  main(){
 
   // allocating memory for 3 "Card" type objects storing them in a pointer array named "wallet" 
-  card **wallet = new Card *[3]; 
+  Card **wallet = new Card *[3]; 
 
   wallet[0] = new Card("Jacob", "1234", 1000.0); 
   wallet[1] = new Card("Elijah", "2345", 12000.01); 
@@ -33,7 +33,7 @@ int  main(){
 
   // lets print out these cards stored in "wallet" pointer array
   for(int i = 0; i<3; i++){
-    cout<<"this is wallet <<i<<"and their name is"<<wallet[i]->cardName<<"."<<"There Balance is"<<wallet[i]->cardBalance<<"\n"; 
+    cout<<"This is wallet "<<i<<" and their name is "<<wallet[i]->getName()<<"."<<"Their Balance is "<<wallet[i]->getBalance()<<"\n"; 
   
 }
 
