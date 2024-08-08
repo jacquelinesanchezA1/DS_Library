@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class Card
-{
+class Card{
 
     string cardNumber, cardName;
     double cardBalance;
