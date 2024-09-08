@@ -22,8 +22,7 @@
         ],
         "preLaunchTask": "build",
         "postDebugTask": "",
-        "internalConsoleOptions": "openOnSessionStart",
-        "stopAtMain": false
+        "internalConsoleOptions": "openOnSessionStart"
       }
     ]
   }
