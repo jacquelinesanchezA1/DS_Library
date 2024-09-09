@@ -9,12 +9,11 @@
       "args": [],
       "cwd": "${workspaceFolder}",
       "stopOnEntry": false,
-      "terminal": "integrated",  // Use integrated terminal to show program output
-      "preLaunchTask": "build",  // Ensure you have a build task defined in tasks.json
+      "console": "integratedTerminal",  // Use integrated terminal
+      "preLaunchTask": "build",  // Ensure you have a build task in tasks.json
       "sourceMap": {
         "/buildRoot": "${workspaceFolder}"
-      },
-      "externalConsole": false
+      }
     }
   ]
 }

@@ -6,10 +6,10 @@
       "type": "shell",
       "command": "g++",
       "args": [
-        "-g",
-        "${file}",
+        "-g",  // Include debug information
+        "main.cpp",  // Source file to compile
         "-o",
-        "${fileDirname}/${fileBasenameNoExtension}"
+        "main"  // Output executable
       ],
       "group": {
         "kind": "build",
