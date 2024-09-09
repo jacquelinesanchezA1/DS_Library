@@ -7,7 +7,7 @@
       "command": "g++",
       "args": [
         "-g",  // Include debug information
-        "main.cpp",  // Source file to compile
+        "sum_array.cpp",  // Source file to compile
         "-o",
         "main"  // Output executable
       ],

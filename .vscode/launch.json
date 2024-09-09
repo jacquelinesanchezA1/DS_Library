@@ -2,18 +2,15 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "LLDB Launch",
+      "name": "C++ Launch (LLDB)",
       "type": "lldb",
       "request": "launch",
-      "program": "${workspaceFolder}/your_program_name",  // Path to your compiled program
+      "program": "${workspaceFolder}/main",  // Points to the compiled program
       "args": [],
       "cwd": "${workspaceFolder}",
       "stopOnEntry": false,
-      "console": "integratedTerminal",  // Use integrated terminal
-      "preLaunchTask": "build",  // Ensure you have a build task in tasks.json
-      "sourceMap": {
-        "/buildRoot": "${workspaceFolder}"
-      }
+      "console": "integratedTerminal",
+      "preLaunchTask": "build"
     }
   ]
 }
