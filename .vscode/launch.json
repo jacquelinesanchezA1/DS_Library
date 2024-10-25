@@ -1,35 +1,26 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "Program 1",
-      "type": "lldb",
-      "request": "launch",
-      "program": "${workspaceFolder}/Users/jacquelinesanchez/Documents/GithubRepositories/Projects_/2436_DS/3.Stacks/calculator_stack.cpp",
-      "args": [],
-      "cwd": "${workspaceFolder}",
-      "stopOnEntry": false,
-      "console": "integratedTerminal",
-      "preLaunchTask": "buildProgram1"
-    },
-    {
-      "name": "Program 2",
-      "type": "lldb",
-      "request": "launch",
-      "program": "${workspaceFolder}/path/to/program2",
-      "args": [],
-      "cwd": "${workspaceFolder}",
-      "stopOnEntry": false,
-      "console": "integratedTerminal",
-      "preLaunchTask": "buildProgram2"
-    },
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "lldb",
-      "request": "launch",
-      "args": [],
-      "cwd": "/Users/jacquelinesanchez/Documents/GithubRepositories/Projects_/2436_DS",
-      "program": "/Users/jacquelinesanchez/Documents/GithubRepositories/Projects_/2436_DS/build/Debug/outDebug"
-    }
-  ]
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C/C++ Runner: Debug Session",
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "/Users/jacquelinesanchez/Documents/GithubRepositories/Projects_/2436_DS/3.Stacks",
+            "program": "/Users/jacquelinesanchez/Documents/GithubRepositories/Projects_/2436_DS/3.Stacks/build/Debug/outDebug"
+        },
+        {
+            "name": "C/C++: clang++ build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: clang++ build active file"
+        }
+    ]
 }
