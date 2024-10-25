@@ -5,7 +5,7 @@
       "name": "Program 1",
       "type": "lldb",
       "request": "launch",
-      "program": "${workspaceFolder}/3.Stacks/calculator_stack.cpp",
+      "program": "${workspaceFolder}/Users/jacquelinesanchez/Documents/GithubRepositories/Projects_/2436_DS/3.Stacks/calculator_stack.cpp",
       "args": [],
       "cwd": "${workspaceFolder}",
       "stopOnEntry": false,
