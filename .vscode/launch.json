@@ -2,15 +2,34 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "C++ Launch (LLDB)",
+      "name": "Program 1",
       "type": "lldb",
       "request": "launch",
-      "program": "${workspaceFolder}/main",  // Points to the compiled program
+      "program": "${workspaceFolder}3.Stacks/calculator_stack.cpp",
       "args": [],
       "cwd": "${workspaceFolder}",
       "stopOnEntry": false,
       "console": "integratedTerminal",
-      "preLaunchTask": "build"
+      "preLaunchTask": "buildProgram1"
+    },
+    {
+      "name": "Program 2",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/path/to/program2",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopOnEntry": false,
+      "console": "integratedTerminal",
+      "preLaunchTask": "buildProgram2"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/jacquelinesanchez/Documents/GithubRepositories/Projects_/2436_DS",
+      "program": "/Users/jacquelinesanchez/Documents/GithubRepositories/Projects_/2436_DS/build/Debug/outDebug"
     }
   ]
 }
